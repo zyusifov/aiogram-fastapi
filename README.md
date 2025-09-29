@@ -46,7 +46,7 @@ aiogram-fastapi/
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate
    ```
 
 3. **Install dependencies**
@@ -98,3 +98,4 @@ The bot supports the following commands:
 
 - `POST /webhook` - Telegram webhook endpoint for receiving updates
 - `GET /admin` - SQLAdmin panel for database management
+- `GET /map` - HTML page for visualize all users locations on map
